@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:wght@400;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,4 +7,70 @@
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   list-style: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 35px 12%;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+}
+
+.logo {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.logo:hover {
+  color: tomato;
+  text-shadow:
+    0 0 25px tomato,
+    0 0 50px tomato;
+  transform: scale(1.1);
+}
+
+span {
+  color: tomato;
+}
+
+.navbar a {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  margin: 0 20px;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: tomato;
+  border-bottom: 3px solid transparent;
+}
+
+.contact {
+  padding: 10px 28px;
+  background: #fff;
+  color: #000;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.contact:hover {
+  background: tomato;
+  box-shadow: 0 0 25px tomato;
+  color: #fff;
 }
