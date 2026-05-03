@@ -20,7 +20,7 @@
   width: 100%;
   padding: 35px 12%;
   background: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
 }
 
 .logo {
@@ -167,4 +167,40 @@ span {
 ::-webkit-scrollbar-track {
   background: #000000e2;
   width: 50px;
+}
+
+/* About */
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12% 8%;
+  background: #000;
+  gap: 10em;
+}
+
+.about img {
+  border-radius: 50px;
+  width: 550px;
+  object-fit: cover;
+  box-shadow:
+    0 0 25px tomato,
+    0 0 50px tomato;
+}
+
+.about-content h2 {
+  color: #fff;
+  text-align: left;
+  font-size: 42px;
+}
+
+.about-content h3 {
+  color: #fff;
+  font-size: 62px;
+}
+
+.about-content p {
+  color: #fff;
+  font-size: 20px;
+  margin: 2em 0 3em;
 }
