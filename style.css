@@ -204,3 +204,35 @@ span {
   font-size: 20px;
   margin: 2em 0 3em;
 }
+
+/* Contact form */
+.contact-form h2 {
+  margin-top: 3em;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.contact-form form {
+  margin: 1rem auto 3em;
+  max-width: 50em;
+  text-align: center;
+}
+
+.contact-form form .input-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-form form .input-box input,
+.contact-form form textarea {
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 18px;
+  color: #000;
+  background: rgb(241, 241, 241);
+  border-radius: 0.8rem;
+  margin: 1rem 0;
+  resize: none;
+}
